@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DailyIB｜最新简报</title>
+  <style>
+    :root {
+      --ink: #171717;
+      --muted: #666;
+      --line: #d8d8d8;
+      --accent: #8b1e1e;
+      --paper: #f7f5f0;
+      --panel: #fffdf8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans CJK SC", "Microsoft YaHei", Arial, sans-serif;
+      line-height: 1.6;
+    }
+    .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 56px; }
+    .masthead {
+      border-top: 5px solid var(--accent);
+      border-bottom: 1px solid var(--line);
+      padding: 22px 0 18px;
+      margin-bottom: 28px;
+    }
+    .brand { color: var(--accent); font-weight: 800; letter-spacing: .02em; font-size: 15px; }
+    h1 { margin: 8px 0 6px; font-size: clamp(30px, 5vw, 54px); line-height: 1.08; font-weight: 800; }
+    .subtitle { color: var(--muted); font-size: 15px; }
+    .section { margin: 28px 0; padding-top: 18px; border-top: 1px solid var(--line); }
+    h2 { margin: 0 0 14px; font-size: 22px; color: var(--accent); }
+    h3 { margin: 18px 0 10px; font-size: 17px; }
+    .lede { font-size: 18px; font-weight: 600; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 4px;
+      padding: 14px;
+    }
+    .name { font-weight: 700; }
+    .meta { color: var(--muted); font-size: 13px; margin-top: 3px; }
+    .pos { color: #116a38; font-weight: 700; }
+    .neg { color: #a02b2b; font-weight: 700; }
+    .flat { color: var(--muted); font-weight: 700; }
+    ul { padding-left: 20px; }
+    li { margin: 8px 0; }
+    .sources { color: var(--muted); font-size: 13px; }
+    @media (max-width: 640px) {
+      .page { padding: 22px 14px 44px; }
+      .masthead { padding-top: 18px; }
+      h1 { font-size: 34px; }
+      .lede { font-size: 17px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="masthead">
+      <div class="brand">DailyIB</div>
+      <h1>每日市场简报</h1>
+      <div class="subtitle">最新页面占位。每日自动化会覆盖本页，不做历史归档。</div>
+    </header>
+    <section class="section">
+      <h2>等待首次发布</h2>
+      <p class="lede">DailyIB 已配置为 GitHub Pages HTML 简报入口。</p>
+      <p>正式运行后，本页将展示最新一份专业金融研报风格简报。</p>
+    </section>
+  </main>
+</body>
+</html>
